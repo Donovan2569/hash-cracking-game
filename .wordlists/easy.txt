@@ -1,0 +1,15 @@
+apple
+tiger
+lemon
+peach
+mango
+berry
+eagle
+orange
+grape
+house
+river
+cloud
+stone
+green
+blue

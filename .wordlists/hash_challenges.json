@@ -1,0 +1,233 @@
+{
+  "easy": [
+    {
+      "hash": "1f3870be274f6c49b3e31a0c6728957f",
+      "algorithm": "md5",
+      "hint": "A common fruit often red or green, keeps the doctor away."
+    },
+    {
+      "hash": "43b90920409618f188bfc6923f16b9fa",
+      "algorithm": "md5",
+      "hint": "A big striped wild cat from Asia."
+    },
+    {
+      "hash": "3f24e567591e9cbab2a7d2f1f748a1d4",
+      "algorithm": "md5",
+      "hint": "A sour yellow citrus fruit."
+    },
+    {
+      "hash": "889560d93572d538078ce1578567b91a",
+      "algorithm": "md5",
+      "hint": "A juicy fruit with fuzzy skin."
+    },
+    {
+      "hash": "aa00faf97d042c13a59da4d27eb32358",
+      "algorithm": "md5",
+      "hint": "A tropical stone fruit, sweet and orange inside."
+    },
+    {
+      "hash": "5076e33378db3b35c88d9189851ed3bf",
+      "algorithm": "md5",
+      "hint": "Small, juicy fruits like strawberries or blueberries."
+    },
+    {
+      "hash": "b09315ea09c6d3b5680094257f1f70e4",
+      "algorithm": "md5",
+      "hint": "A large bird of prey known for keen eyesight."
+    },
+    {
+      "hash": "fe01d67a002dfa0f3ac084298142eccd",
+      "algorithm": "md5",
+      "hint": "A citrus fruit and a color."
+    },
+    {
+      "hash": "b781cbb29054db12f88f08c6e161c199",
+      "algorithm": "md5",
+      "hint": "Small round fruit used to make wine."
+    },
+    {
+      "hash": "2ca63cddd54f9490efad22421891a9d1",
+      "algorithm": "md5",
+      "hint": "Where people live."
+    },
+    {
+      "hash": "a5b03048ebe345c488e0ca30eff6ab0c",
+      "algorithm": "md5",
+      "hint": "A natural flowing watercourse."
+    },
+    {
+      "hash": "a1234b3161b4fbfdfb96dd576b65bbea",
+      "algorithm": "md5",
+      "hint": "White or gray fluffy formations in the sky."
+    },
+    {
+      "hash": "0a840ef45467fb3932dbf2c2896c5cbf",
+      "algorithm": "md5",
+      "hint": "A small piece of rock."
+    },
+    {
+      "hash": "9f27410725ab8cc8854a2769c7a516b8",
+      "algorithm": "md5",
+      "hint": "The color of grass and leaves."
+    },
+    {
+      "hash": "48d6215903dff56238e52e8891380c8f",
+      "algorithm": "md5",
+      "hint": "The color of the sky on a clear day."
+    }
+  ],
+  "medium": [
+    {
+      "hash": "5f4dcc3b5aa765d61d8327deb882cf99",
+      "algorithm": "md5",
+      "hint": "A secret key to access accounts."
+    },
+    {
+      "hash": "0571749e2ac330a7455809c6b0e7af90",
+      "algorithm": "md5",
+      "hint": "Bright light from the sun."
+    },
+    {
+      "hash": "0d107d09f5bbe40cade3de5c71e9e9b7",
+      "algorithm": "md5",
+      "hint": "A common simple password phrase."
+    },
+    {
+      "hash": "8621ffdbc5698829397d97767ac13db3",
+      "algorithm": "md5",
+      "hint": "Mythical fire-breathing creature."
+    },
+    {
+      "hash": "37b4e2d82900d5e94b8da524fbeb33c0",
+      "algorithm": "md5",
+      "hint": "Popular sport played with a round ball."
+    },
+    {
+      "hash": "d0763edaa9d9bd2a9516280e9044d885",
+      "algorithm": "md5",
+      "hint": "A primate known for swinging in trees."
+    },
+    {
+      "hash": "d8578edf8458ce06fbc5bb76a58c5ca4",
+      "algorithm": "md5",
+      "hint": "The standard keyboard layout."
+    },
+    {
+      "hash": "f25a2fc72690b780b2a14e140ef6a9e0",
+      "algorithm": "md5",
+      "hint": "A common password phrase expressing affection."
+    },
+    {
+      "hash": "276f8db0b86edaa7fc805516c852c889",
+      "algorithm": "md5",
+      "hint": "A sport with a bat and ball played on a diamond."
+    },
+    {
+      "hash": "3bf1114a986ba87ed28fc1b5884fc2f8",
+      "algorithm": "md5",
+      "hint": "A dark shape cast by an object blocking light."
+    },
+    {
+      "hash": "d5aa1729c8c253e5d917a5264855eab8",
+      "algorithm": "md5",
+      "hint": "The power or right to act freely."
+    },
+    {
+      "hash": "eb0a191797624dd3a48fa681d3061212",
+      "algorithm": "md5",
+      "hint": "One who has control or expertise."
+    },
+    {
+      "hash": "f30aa7a662c728b7407c54ae6bfd27d1",
+      "algorithm": "md5",
+      "hint": "A friendly greeting combined with numbers."
+    },
+    {
+      "hash": "40be4e59b9a2a2b5dffb918c0e86b3d7",
+      "algorithm": "md5",
+      "hint": "A polite greeting for guests."
+    },
+    {
+      "hash": "2446d54c2e68d221db9cff653b01a0eb",
+      "algorithm": "md5",
+      "hint": "A simple username/password combo."
+    }
+  ],
+  "hard": [
+    {
+      "hash": "27fcce8468a91e8a123ba5b14beaefd6",
+      "algorithm": "md5",
+      "hint": "Phrase popularized by a video game, means deception."
+    },
+    {
+      "hash": "5fcfd41e547a12215b173ff47fdd3739",
+      "algorithm": "md5",
+      "hint": "A phrase meaning 'trust no one.'"
+    },
+    {
+      "hash": "c67a0c16955c2629b51e94101b8639c0",
+      "algorithm": "md5",
+      "hint": "Part of a famous password phrase."
+    },
+    {
+      "hash": "e53522351c4cfce1b2c3ecb3f4dbf2cd",
+      "algorithm": "md5",
+      "hint": "Polite way of asking for access."
+    },
+    {
+      "hash": "0af268dc169d96cd4f3db8404e7dd0cd",
+      "algorithm": "md5",
+      "hint": "An affectionate, long password phrase."
+    },
+    {
+      "hash": "9a618248b64db62d15b300a07b00580b",
+      "algorithm": "md5",
+      "hint": "Something highly confidential."
+    },
+    {
+      "hash": "ab6ae87d5325dbd8dcc4388b48c0d356",
+      "algorithm": "md5",
+      "hint": "A compound word plus numbers."
+    },
+    {
+      "hash": "60158ec4040abbe9fca9618c0ce13bbe",
+      "algorithm": "md5",
+      "hint": "A nickname for a famous comic book hero."
+    },
+    {
+      "hash": "bb5cc2bbd90a5d9bb81ce454d66d940c",
+      "algorithm": "md5",
+      "hint": "Famous phrase from a fantasy series."
+    },
+    {
+      "hash": "2f1423fac0552f0e2421634e9994c26a",
+      "algorithm": "md5",
+      "hint": "A classic fairy tale character."
+    },
+    {
+      "hash": "2a3a7e854cbc6db91fb552c25e332140",
+      "algorithm": "md5",
+      "hint": "Someone who keeps watch overnight."
+    },
+    {
+      "hash": "6791e8b294a557c00be15b1606c87dd7",
+      "algorithm": "md5",
+      "hint": "A colorful insect."
+    },
+    {
+      "hash": "a312d2b16e87bd49fba7bc6dd428298a",
+      "algorithm": "md5",
+      "hint": "A soft, quiet sound."
+    },
+    {
+      "hash": "aaea3920f6762be36d160f53b7cc8b49",
+      "algorithm": "md5",
+      "hint": "A mysterious place in Superman comics."
+    },
+    {
+      "hash": "1d5a77264786222b463c22fabb8fce75",
+      "algorithm": "md5",
+      "hint": "A phrase meaning endless illumination."
+    }
+  ]
+}
