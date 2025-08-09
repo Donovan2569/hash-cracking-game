@@ -1,233 +1,218 @@
 {
   "easy": [
     {
-      "hash": "1f3870be274f6c49b3e31a0c6728957f",
-      "algorithm": "md5",
-      "hint": "A common fruit often red or green, keeps the doctor away."
+      "answer": "1f3870be274f6c49b3e31a0c6728957f",
+      "hash": "dssoh",
+      "algorithm": "caesar",
+      "hint": "Shift by a small prime number.",
+      "key": 3
     },
     {
-      "hash": "43b90920409618f188bfc6923f16b9fa",
-      "algorithm": "md5",
-      "hint": "A big striped wild cat from Asia."
+      "answer": "3f24e567591e9cbab2a7d2f1f748a1d4",
+      "hash": "qjrts",
+      "algorithm": "caesar",
+      "hint": "A number between 3 and 6.",
+      "key": 5
     },
     {
-      "hash": "3f24e567591e9cbab2a7d2f1f748a1d4",
-      "algorithm": "md5",
-      "hint": "A sour yellow citrus fruit."
+      "answer": "b781cbb29054db12f88f08c6e161c199",
+      "hash": "nyhwl",
+      "algorithm": "caesar",
+      "hint": "Shift by a lucky number in many cultures.",
+      "key": 7
     },
     {
-      "hash": "889560d93572d538078ce1578567b91a",
-      "algorithm": "md5",
-      "hint": "A juicy fruit with fuzzy skin."
+      "answer": "889560d93572d538078ce1578567b91a",
+      "hash": "rgcej",
+      "algorithm": "caesar",
+      "hint": "Shift by a double of one.",
+      "key": 2
     },
     {
-      "hash": "aa00faf97d042c13a59da4d27eb32358",
-      "algorithm": "md5",
-      "hint": "A tropical stone fruit, sweet and orange inside."
+      "answer": "3a2cf27458c9aa3e358f8fc0f002bff6",
+      "hash": "qipsr",
+      "algorithm": "caesar",
+      "hint": "Shift by just under half a dozen.",
+      "key": 4
     },
     {
-      "hash": "5076e33378db3b35c88d9189851ed3bf",
-      "algorithm": "md5",
-      "hint": "Small, juicy fruits like strawberries or blueberries."
+      "answer": "5076e33378db3b35c88d9189851ed3bf",
+      "hash": "hkxxe",
+      "algorithm": "caesar",
+      "hint": "Shift by half a dozen times one.",
+      "key": 6
     },
     {
-      "hash": "b09315ea09c6d3b5680094257f1f70e4",
-      "algorithm": "md5",
-      "hint": "A large bird of prey known for keen eyesight."
+      "answer": "aa00faf97d042c13a59da4d27eb32358",
+      "hash": "nbohp",
+      "algorithm": "caesar",
+      "hint": "Shift by the first positive integer.",
+      "key": 1
     },
     {
-      "hash": "fe01d67a002dfa0f3ac084298142eccd",
-      "algorithm": "md5",
-      "hint": "A citrus fruit and a color."
+      "answer": "3e042037287d6871eec3dbd48556b0b4",
+      "hash": "xtcu",
+      "algorithm": "caesar",
+      "hint": "Shift by two cubed.",
+      "key": 8
     },
     {
-      "hash": "b781cbb29054db12f88f08c6e161c199",
-      "algorithm": "md5",
-      "hint": "Small round fruit used to make wine."
+      "answer": "8893dc16b1b2534bab7b03727145a2bb",
+      "hash": "ynja",
+      "algorithm": "caesar",
+      "hint": "Shift by three squared.",
+      "key": 9
     },
     {
-      "hash": "2ca63cddd54f9490efad22421891a9d1",
-      "algorithm": "md5",
-      "hint": "Where people live."
-    },
-    {
-      "hash": "a5b03048ebe345c488e0ca30eff6ab0c",
-      "algorithm": "md5",
-      "hint": "A natural flowing watercourse."
-    },
-    {
-      "hash": "a1234b3161b4fbfdfb96dd576b65bbea",
-      "algorithm": "md5",
-      "hint": "White or gray fluffy formations in the sky."
-    },
-    {
-      "hash": "0a840ef45467fb3932dbf2c2896c5cbf",
-      "algorithm": "md5",
-      "hint": "A small piece of rock."
-    },
-    {
-      "hash": "9f27410725ab8cc8854a2769c7a516b8",
-      "algorithm": "md5",
-      "hint": "The color of grass and leaves."
-    },
-    {
-      "hash": "48d6215903dff56238e52e8891380c8f",
-      "algorithm": "md5",
-      "hint": "The color of the sky on a clear day."
+      "answer": "de5949721e6352f01dfef317c3e898a8",
+      "hash": "usgs",
+      "algorithm": "caesar",
+      "hint": "Shift by (50 / 5) + (3 * 2) - (4) - 3 + (7 % 3)",
+      "key": 10
     }
   ],
   "medium": [
     {
-      "hash": "5f4dcc3b5aa765d61d8327deb882cf99",
-      "algorithm": "md5",
-      "hint": "A secret key to access accounts."
+      "answer": "fe01d67a002dfa0f3ac084298142eccd",
+      "hash": "DQAICQ8R",
+      "algorithm": "xor",
+      "hint": "Hot ball of gas",
+      "key": "bright"
     },
     {
-      "hash": "0571749e2ac330a7455809c6b0e7af90",
-      "algorithm": "md5",
-      "hint": "Bright light from the sun."
+      "answer": "72b302bf297a228a75730123efef7c41",
+      "hash": "DxgaCQcC",
+      "algorithm": "xor",
+      "hint": "Mythical beast",
+      "key": "mythic"
     },
     {
-      "hash": "0d107d09f5bbe40cade3de5c71e9e9b7",
-      "algorithm": "md5",
-      "hint": "A common simple password phrase."
+      "answer": "c7a4476fc64b75ead800da9ea2b7d072",
+      "hash": "BQEAHhYf",
+      "algorithm": "xor",
+      "hint": "Played on a field",
+      "key": "field"
     },
     {
-      "hash": "8621ffdbc5698829397d97767ac13db3",
-      "algorithm": "md5",
-      "hint": "Mythical fire-breathing creature."
+      "answer": "006f87892f47ef9aa60fa5ed01a440fb",
+      "hash": "HhoDBhgK",
+      "algorithm": "xor",
+      "hint": "Swinging primate",
+      "key": "jungle"
     },
     {
-      "hash": "37b4e2d82900d5e94b8da524fbeb33c0",
-      "algorithm": "md5",
-      "hint": "Popular sport played with a round ball."
+      "answer": "2d6128bc89c98dc7a4462e8b310997a4",
+      "hash": "HAAJDgwV",
+      "algorithm": "xor",
+      "hint": "Computer input",
+      "key": "layout"
     },
     {
-      "hash": "d0763edaa9d9bd2a9516280e9044d885",
-      "algorithm": "md5",
-      "hint": "A primate known for swinging in trees."
+      "answer": "da046c3196159a5484b74c947acd4e90",
+      "hash": "DxAABBU=",
+      "algorithm": "xor",
+      "hint": "Strong emotion",
+      "key": "heart"
     },
     {
-      "hash": "d8578edf8458ce06fbc5bb76a58c5ca4",
-      "algorithm": "md5",
-      "hint": "The standard keyboard layout."
+      "answer": "f9f33d493fdae03f9c86e72b677fee35",
+      "hash": "BRkTBAwBEA==",
+      "algorithm": "xor",
+      "hint": "Sport with bat",
+      "key": "diamond"
     },
     {
-      "hash": "f25a2fc72690b780b2a14e140ef6a9e0",
-      "algorithm": "md5",
-      "hint": "A common password phrase expressing affection."
+      "answer": "763b8741d9f1a6fb4e0b72865d993f33",
+      "hash": "Bw4RBAsbEA==",
+      "algorithm": "xor",
+      "hint": "Blocked light shape",
+      "key": "darken"
     },
     {
-      "hash": "276f8db0b86edaa7fc805516c852c889",
-      "algorithm": "md5",
-      "hint": "A sport with a bat and ball played on a diamond."
+      "answer": "2377c1f9fe03c98121291827c75d2daa",
+      "hash": "FhwVARUd",
+      "algorithm": "xor",
+      "hint": "Liberty or power",
+      "key": "rights"
     },
     {
-      "hash": "3bf1114a986ba87ed28fc1b5884fc2f8",
-      "algorithm": "md5",
-      "hint": "A dark shape cast by an object blocking light."
-    },
-    {
-      "hash": "d5aa1729c8c253e5d917a5264855eab8",
-      "algorithm": "md5",
-      "hint": "The power or right to act freely."
-    },
-    {
-      "hash": "eb0a191797624dd3a48fa681d3061212",
-      "algorithm": "md5",
-      "hint": "One who has control or expertise."
-    },
-    {
-      "hash": "f30aa7a662c728b7407c54ae6bfd27d1",
-      "algorithm": "md5",
-      "hint": "A friendly greeting combined with numbers."
-    },
-    {
-      "hash": "40be4e59b9a2a2b5dffb918c0e86b3d7",
-      "algorithm": "md5",
-      "hint": "A polite greeting for guests."
-    },
-    {
-      "hash": "2446d54c2e68d221db9cff653b01a0eb",
-      "algorithm": "md5",
-      "hint": "A simple username/password combo."
+      "answer": "8bd4e0a4865a4c08b3b37e97ab652d14",
+      "hash": "CQETDRcR",
+      "algorithm": "xor",
+      "hint": "One in control",
+      "key": "expert"
     }
   ],
   "hard": [
     {
-      "hash": "27fcce8468a91e8a123ba5b14beaefd6",
-      "algorithm": "md5",
-      "hint": "Phrase popularized by a video game, means deception."
+      "answer": "df53ca268240ca76670c8566ee54568a",
+      "hash": "dsfgurfv",
+      "algorithm": "vigenere",
+      "hint": "A trick or lie",
+      "key": "betray"
     },
     {
-      "hash": "5fcfd41e547a12215b173ff47fdd3739",
-      "algorithm": "md5",
-      "hint": "A phrase meaning 'trust no one.'"
+      "answer": "e03239b27e34a5f7f3bde739459dd537",
+      "hash": "jidtos",
+      "algorithm": "vigenere",
+      "hint": "Don't trust anyone",
+      "key": "distrust"
     },
     {
-      "hash": "c67a0c16955c2629b51e94101b8639c0",
-      "algorithm": "md5",
-      "hint": "Part of a famous password phrase."
+      "answer": "ed469618898d75b149e5c7c4b6a1c415",
+      "hash": "fwgavaysm",
+      "algorithm": "vigenere",
+      "hint": "Magical fiery ball",
+      "key": "flames"
     },
     {
-      "hash": "e53522351c4cfce1b2c3ecb3f4dbf2cd",
-      "algorithm": "md5",
-      "hint": "Polite way of asking for access."
+      "answer": "5bdf74912a51c34815f11e9a3d20b609",
+      "hash": "vrslchmzsd",
+      "algorithm": "vigenere",
+      "hint": "Polite ask",
+      "key": "request"
     },
     {
-      "hash": "0af268dc169d96cd4f3db8404e7dd0cd",
-      "algorithm": "md5",
-      "hint": "An affectionate, long password phrase."
+      "answer": "7d9a0d11cb36e12a68817aff945390de",
+      "hash": "zbvyrvkw",
+      "algorithm": "vigenere",
+      "hint": "Showing love",
+      "key": "fondness"
     },
     {
-      "hash": "9a618248b64db62d15b300a07b00580b",
-      "algorithm": "md5",
-      "hint": "Something highly confidential."
+      "answer": "225ab6cdf797eae79495ff584a46dfd2",
+      "hash": "hlkcslgtjp",
+      "algorithm": "vigenere",
+      "hint": "Top secret info",
+      "key": "secret"
     },
     {
-      "hash": "ab6ae87d5325dbd8dcc4388b48c0d356",
-      "algorithm": "md5",
-      "hint": "A compound word plus numbers."
+      "answer": "27b6afbe0ce42ae28e370ac5e7ff6420",
+      "hash": "psgicmkq",
+      "algorithm": "vigenere",
+      "hint": "Common complex code",
+      "key": "complex"
     },
     {
-      "hash": "60158ec4040abbe9fca9618c0ce13bbe",
-      "algorithm": "md5",
-      "hint": "A nickname for a famous comic book hero."
+      "answer": "9a05c48bfca44f5680d1897c28c744c2",
+      "hash": "xyrfipames",
+      "algorithm": "vigenere",
+      "hint": "Comic book hero",
+      "key": "heroic"
     },
     {
-      "hash": "bb5cc2bbd90a5d9bb81ce454d66d940c",
-      "algorithm": "md5",
-      "hint": "Famous phrase from a fantasy series."
+      "answer": "5118394f28be1c11f7322ab20540cf0a",
+      "hash": "uaetdgv",
+      "algorithm": "vigenere",
+      "hint": "Fictional castle",
+      "key": "fantasy"
     },
     {
-      "hash": "2f1423fac0552f0e2421634e9994c26a",
-      "algorithm": "md5",
-      "hint": "A classic fairy tale character."
-    },
-    {
-      "hash": "2a3a7e854cbc6db91fb552c25e332140",
-      "algorithm": "md5",
-      "hint": "Someone who keeps watch overnight."
-    },
-    {
-      "hash": "6791e8b294a557c00be15b1606c87dd7",
-      "algorithm": "md5",
-      "hint": "A colorful insect."
-    },
-    {
-      "hash": "a312d2b16e87bd49fba7bc6dd428298a",
-      "algorithm": "md5",
-      "hint": "A soft, quiet sound."
-    },
-    {
-      "hash": "aaea3920f6762be36d160f53b7cc8b49",
-      "algorithm": "md5",
-      "hint": "A mysterious place in Superman comics."
-    },
-    {
-      "hash": "1d5a77264786222b463c22fabb8fce75",
-      "algorithm": "md5",
-      "hint": "A phrase meaning endless illumination."
+      "answer": "90b44a908c390e361ad8ab10d91dca28",
+      "hash": "rebrnaoc",
+      "algorithm": "vigenere",
+      "hint": "Fairy tale girl",
+      "key": "fairytale"
     }
   ]
 }

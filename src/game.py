@@ -25,13 +25,14 @@ class Game:
             current_entry = self.data[self.mode][level]
             algorithm = current_entry['algorithm'].lower()
             stored_hash = current_entry['hash']
+            stored_answer = current_entry['answer']
             hint = current_entry['hint']
 
             show_hint = False 
 
             while True:
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print(f"{self.mode.capitalize()} {algorithm} {stored_hash}")
+                print(f"{self.mode.capitalize()} {algorithm}\nHash: {stored_hash}")
 
                 if show_hint:
                     print(f"Hint: {hint}")
@@ -45,7 +46,7 @@ class Game:
                 if guess.lower() == "exit":
                     return self.lose()
 
-                if self.check_guess(guess, stored_hash, algorithm):
+                if self.check_guess(guess, stored_answer, algorithm):
                     print("Correct!")
                     level += 1
                     break
@@ -63,16 +64,7 @@ class Game:
 
     def check_guess(self, guess, stored_hash, algorithm):
         guess = guess.lower().encode('utf-8')
-
-        if algorithm == 'md5':
-            guess_hash = hashlib.md5(guess).hexdigest()
-        elif algorithm == 'sha1':
-            guess_hash = hashlib.sha1(guess).hexdigest()
-        elif algorithm == 'sha256':
-            guess_hash = hashlib.sha256(guess).hexdigest()
-        else:
-            # default to md5 if unknown algorithm
-            guess_hash = hashlib.md5(guess).hexdigest()
+        guess_hash = hashlib.md5(guess).hexdigest()
 
         return guess_hash == stored_hash
 
