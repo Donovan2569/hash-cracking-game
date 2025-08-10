@@ -4,71 +4,71 @@
       "answer": "1f3870be274f6c49b3e31a0c6728957f",
       "hash": "dssoh",
       "algorithm": "caesar",
-      "hint": "Shift by a small prime number.",
+      "hint": "Shift by (10 - 7).",
       "key": 3
     },
     {
       "answer": "3f24e567591e9cbab2a7d2f1f748a1d4",
       "hash": "qjrts",
       "algorithm": "caesar",
-      "hint": "A number between 3 and 6.",
+      "hint": "Shift by (10 / 2).",
       "key": 5
     },
     {
       "answer": "b781cbb29054db12f88f08c6e161c199",
       "hash": "nyhwl",
       "algorithm": "caesar",
-      "hint": "Shift by a lucky number in many cultures.",
+      "hint": "Shift by (sqrt(49)).",
       "key": 7
     },
     {
       "answer": "889560d93572d538078ce1578567b91a",
       "hash": "rgcej",
       "algorithm": "caesar",
-      "hint": "Shift by a double of one.",
+      "hint": "Shift by ((12 ÷ 3) + (4 * 0.5) - 4).",
       "key": 2
     },
     {
       "answer": "3a2cf27458c9aa3e358f8fc0f002bff6",
       "hash": "qipsr",
       "algorithm": "caesar",
-      "hint": "Shift by just under half a dozen.",
+      "hint": "Shift by (((2 + 6) / 2) - 0).",
       "key": 4
     },
     {
       "answer": "5076e33378db3b35c88d9189851ed3bf",
       "hash": "hkxxe",
       "algorithm": "caesar",
-      "hint": "Shift by half a dozen times one.",
+      "hint": "Shift by ((2^3) - (4 / 2)).",
       "key": 6
-    },
-    {
-      "answer": "aa00faf97d042c13a59da4d27eb32358",
-      "hash": "nbohp",
-      "algorithm": "caesar",
-      "hint": "Shift by the first positive integer.",
-      "key": 1
     },
     {
       "answer": "3e042037287d6871eec3dbd48556b0b4",
       "hash": "xtcu",
       "algorithm": "caesar",
-      "hint": "Shift by two cubed.",
+      "hint": "Shift (2 * 2 - (10 * -2) - 16).",
       "key": 8
     },
     {
       "answer": "8893dc16b1b2534bab7b03727145a2bb",
       "hash": "ynja",
       "algorithm": "caesar",
-      "hint": "Shift by three squared.",
+      "hint": "Shift by ((1 + 2) * 6 / 9 + 7).",
       "key": 9
     },
     {
       "answer": "de5949721e6352f01dfef317c3e898a8",
       "hash": "usgs",
       "algorithm": "caesar",
-      "hint": "Shift by (50 / 5) + (3 * 2) - (4) - 3 + (7 % 3)",
+      "hint": "Shift by ((50 / 5) + (3 * 2) - (4) - 3 + (7 % 3))",
       "key": 10
+    },
+    {
+      "answer": "aa00faf97d042c13a59da4d27eb32358",
+      "hash": "nbohp",
+      "algorithm": "caesar",
+      "hint": "Shift by the summation from i = 1 to n - 1 of 1 / 2^i + 1 / 2^(n-1).",
+      "key": 1
     }
   ],
   "medium": [
@@ -76,70 +76,70 @@
       "answer": "fe01d67a002dfa0f3ac084298142eccd",
       "hash": "DQAICQ8R",
       "algorithm": "xor",
-      "hint": "Hot ball of gas",
+      "hint": "Used to descripe the sun",
       "key": "bright"
     },
     {
       "answer": "72b302bf297a228a75730123efef7c41",
       "hash": "DxgaCQcC",
       "algorithm": "xor",
-      "hint": "Mythical beast",
+      "hint": "Legendary creature like a unicorn",
       "key": "mythic"
     },
     {
       "answer": "c7a4476fc64b75ead800da9ea2b7d072",
       "hash": "BQEAHhYf",
       "algorithm": "xor",
-      "hint": "Played on a field",
+      "hint": "Where farmers work",
       "key": "field"
     },
     {
       "answer": "006f87892f47ef9aa60fa5ed01a440fb",
       "hash": "HhoDBhgK",
       "algorithm": "xor",
-      "hint": "Swinging primate",
+      "hint": "Tarzan lives here",
       "key": "jungle"
     },
     {
       "answer": "2d6128bc89c98dc7a4462e8b310997a4",
       "hash": "HAAJDgwV",
       "algorithm": "xor",
-      "hint": "Computer input",
+      "hint": "The way elements are arranged or organized",
       "key": "layout"
     },
     {
       "answer": "da046c3196159a5484b74c947acd4e90",
       "hash": "DxAABBU=",
       "algorithm": "xor",
-      "hint": "Strong emotion",
+      "hint": "The organ of love",
       "key": "heart"
     },
     {
       "answer": "f9f33d493fdae03f9c86e72b677fee35",
       "hash": "BRkTBAwBEA==",
       "algorithm": "xor",
-      "hint": "Sport with bat",
+      "hint": "Beautiful and blue",
       "key": "diamond"
     },
     {
       "answer": "763b8741d9f1a6fb4e0b72865d993f33",
       "hash": "Bw4RBAsbEA==",
       "algorithm": "xor",
-      "hint": "Blocked light shape",
+      "hint": "To make something less bright or more shadowy",
       "key": "darken"
     },
     {
       "answer": "2377c1f9fe03c98121291827c75d2daa",
       "hash": "FhwVARUd",
       "algorithm": "xor",
-      "hint": "Liberty or power",
+      "hint": "Legal or moral entitlements people have",
       "key": "rights"
     },
     {
       "answer": "8bd4e0a4865a4c08b3b37e97ab652d14",
       "hash": "CQETDRcR",
       "algorithm": "xor",
-      "hint": "One in control",
+      "hint": "Person with a high level of skill or knowledge",
       "key": "expert"
     }
   ],
@@ -155,63 +155,63 @@
       "answer": "e03239b27e34a5f7f3bde739459dd537",
       "hash": "jidtos",
       "algorithm": "vigenere",
-      "hint": "Don't trust anyone",
+      "hint": "Lack of trust or confidence in someone or something",
       "key": "distrust"
     },
     {
       "answer": "ed469618898d75b149e5c7c4b6a1c415",
       "hash": "fwgavaysm",
       "algorithm": "vigenere",
-      "hint": "Magical fiery ball",
+      "hint": "Glowing, heat-producing flicker",
       "key": "flames"
     },
     {
       "answer": "5bdf74912a51c34815f11e9a3d20b609",
       "hash": "vrslchmzsd",
       "algorithm": "vigenere",
-      "hint": "Polite ask",
+      "hint": "Ask for something to be given or done",
       "key": "request"
     },
     {
       "answer": "7d9a0d11cb36e12a68817aff945390de",
       "hash": "zbvyrvkw",
       "algorithm": "vigenere",
-      "hint": "Showing love",
+      "hint": "Strong liking or affection for something",
       "key": "fondness"
     },
     {
       "answer": "225ab6cdf797eae79495ff584a46dfd2",
       "hash": "hlkcslgtjp",
       "algorithm": "vigenere",
-      "hint": "Top secret info",
+      "hint": "Redacted information",
       "key": "secret"
     },
     {
       "answer": "27b6afbe0ce42ae28e370ac5e7ff6420",
       "hash": "psgicmkq",
       "algorithm": "vigenere",
-      "hint": "Common complex code",
+      "hint": "Not simple; made of many connected parts",
       "key": "complex"
     },
     {
       "answer": "9a05c48bfca44f5680d1897c28c744c2",
       "hash": "xyrfipames",
       "algorithm": "vigenere",
-      "hint": "Comic book hero",
+      "hint": "Brave and noble in the face of danger",
       "key": "heroic"
     },
     {
       "answer": "5118394f28be1c11f7322ab20540cf0a",
       "hash": "uaetdgv",
       "algorithm": "vigenere",
-      "hint": "Fictional castle",
+      "hint": "Imaginary world of magic and adventure",
       "key": "fantasy"
     },
     {
       "answer": "90b44a908c390e361ad8ab10d91dca28",
       "hash": "rebrnaoc",
       "algorithm": "vigenere",
-      "hint": "Fairy tale girl",
+      "hint": "Stories of princesses",
       "key": "fairytale"
     }
   ]

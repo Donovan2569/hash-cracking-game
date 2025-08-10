@@ -1,9 +1,6 @@
 import string
 import base64
 
-alphabet = string.ascii_lowercase
-Alphabet = string.ascii_uppercase
-
 # Easy mode
 def caesar_cipher(text, shift, mode='encrypt'):
     result = ""
@@ -19,7 +16,6 @@ def caesar_cipher(text, shift, mode='encrypt'):
         else:
             result += char
     return result
-
 
 # Medium mode
 def xor(text, key, mode = 'encrypt'):
@@ -38,6 +34,8 @@ def xor(text, key, mode = 'encrypt'):
     
 # Hard mode
 def vigenere(text, key, mode='encrypt'):
+    alphabet = string.ascii_lowercase
+    Alphabet = string.ascii_uppercase
     count = 0
     result = ""
     key = key.lower()
@@ -65,5 +63,3 @@ def vigenere(text, key, mode='encrypt'):
         if count >= len(key):
             count = 0
     return result
-
-print(caesar_cipher("qjrts", 5, "decrypt"))

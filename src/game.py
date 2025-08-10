@@ -1,19 +1,21 @@
 import os
 import json
 import hashlib
-
+from src import crypto
 class Game:
     def __init__(self):
+        self.decryption = ["caesar", "xor", "viginere"]
         self.modes = ['easy', 'medium', 'hard']
         self.mode = ""
         with open("./.wordlists/hash_challenges.json", 'r') as f:
             self.data = json.load(f)
          
     def getMode(self):
-        self.mode = input("Pick your mode: (Easy, Medium, Hard) ").lower()
+        os.system('cls' if os.name == 'nt' else 'clear')
+        self.mode = input("\033[0mPick your mode: (Easy, Medium, Hard)\033[36m ").lower()
         while self.mode not in self.modes:
             os.system('cls' if os.name == 'nt' else 'clear')
-            self.mode = input("Please enter a valid mode: (Easy, Medium, Hard) ").lower()
+            self.mode = input("\033[0mPlease enter a valid mode: (Easy, Medium, Hard)\033[36m ").lower()
 
         return self.play()
 
@@ -28,19 +30,50 @@ class Game:
             stored_answer = current_entry['answer']
             hint = current_entry['hint']
 
-            show_hint = False 
-
+            show_tools = False 
+            hashText = ""
+            shift = ""
+            key = ""
+            crackedHash = ""
             while True:
                 os.system('cls' if os.name == 'nt' else 'clear')
-                print(f"{self.mode.capitalize()} {algorithm}\nHash: {stored_hash}")
+                print(f"\033[36mHash: {stored_hash}\033[0m\n{hint}")
 
-                if show_hint:
-                    print(f"Hint: {hint}")
+                if crackedHash:
+                    print(f"\033[92mCracked Hash: {crackedHash}\033[0m")
 
-                guess = input("Enter your guess (or type 'hint', 'exit'): ").strip()
+                if show_tools:
+                    print("\033[32mTools:")
+                    for tool in self.decryption:
+                        print(f"\033[32m{tool}\033[0m")
+                guess = input("\033[0mEnter your guess (or type 'tools', 'exit'):\033[36m ").strip()
 
-                if guess.lower() == "hint":
-                    show_hint = True
+                if guess.lower() in self.decryption:
+                    shift = ""
+                    key = ""
+                    hashText = input("\033[0mWhat is the hash?\033[36m ")
+                    if guess.lower() == 'caesar':
+                        while not shift:
+                            shift = input("\033[0mHow far would you like to shift the text?\033[36m ")
+                            for char in shift:
+                                if char.isalpha():
+                                    shift = ""
+                                    break
+                        crackedHash = crypto.caesar_cipher(hashText, int(shift), 'decrypt')
+                    else:
+                        while not key:
+                            key = input("\033[0mWhat is the key to the cipher?\033[36m ")
+                        
+                        if guess.lower() == 'xor':
+                            crackedHash = crypto.xor(hashText, key, 'decrypt')
+                        elif guess.lower() == 'vigenere':
+                            crackedHash = crypto.vigenere(hashText, key, 'decrypt')
+
+                    show_tools = False
+                    continue
+
+                if guess.lower() == "tools":
+                    show_tools = True
                     continue
 
                 if guess.lower() == "exit":
@@ -55,7 +88,7 @@ class Game:
 
         next_mode = ""
         while next_mode not in ['yes', 'no']:
-            next_mode = input("Would you like to play a different difficulty? ('yes' or 'no'): ").lower()
+            next_mode = input("\033[0mWould you like to play a different difficulty? ('yes' or 'no'):\033[36m ").lower()
 
         if next_mode == "yes":
             return self.getMode()
@@ -70,8 +103,8 @@ class Game:
 
     def win(self):
         os.system('cls' if os.name == 'nt' else 'clear')
-        print(f"Congratulations! You completed {self.mode} mode!")
+        print(f"\033[32mCongratulations! You completed {self.mode} mode!\033[0m")
 
     def lose(self):
         os.system('cls' if os.name == 'nt' else 'clear')
-        print("Better luck next time!")
+        print("\033[31mBetter luck next time!\033[0m")
